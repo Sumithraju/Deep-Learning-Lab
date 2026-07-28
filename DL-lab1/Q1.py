@@ -60,5 +60,4 @@ def softmax(z):
 
 print("Softmax Output:")
 print(softmax(z))
-
 plt.show()
