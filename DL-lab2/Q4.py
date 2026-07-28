@@ -46,23 +46,17 @@ print("\nBias")
 print(b)
 
 print("\nz =", z)
-
 print("\na =", a)
-
 print("\nPrediction =", y_hat)
 
 #using FUn
 import numpy as np
-
 def relu(z):
     return np.maximum(0, z)
 
 def neuron(W, x, b):
-
     z = W @ x + b
-
     a = relu(z)
-
     return z, a
 
 # Random Input
@@ -73,7 +67,6 @@ W = np.random.randn(1,4)
 
 # Random Bias
 b = np.random.randn(1,1)
-
 z, y_hat = neuron(W, x, b)
 
 print("Input")
