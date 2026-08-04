@@ -46,39 +46,39 @@ z3, y_hat = forward(W3, a2, b3)
 # Print Results
 print(x)
 
-print("\nWeight Matrix W1")
+print("Weight Matrix W1")
 print(W1)
 
-print("\nBias b1")
+print("Bias b1")
 print(b1)
 
-print("\nHidden Layer 1")
+print("Hidden Layer 1")
 print("z1 =")
 print(z1)
 print("a1 =")
 print(a1)
 
-print("\nWeight Matrix W2")
+print("Weight Matrix W2")
 print(W2)
 
-print("\nBias b2")
+print("Bias b2")
 print(b2)
 
-print("\nHidden Layer 2")
+print("Hidden Layer 2")
 print("z2 =")
 print(z2)
 print("a2 =")
 print(a2)
 
-print("\nWeight Matrix W3")
+print("Weight Matrix W3")
 print(W3)
 
-print("\nBias b3")
+print("Bias b3")
 print(b3)
 
 print("\nOutput Layer")
 print("z3 =")
 print(z3)
 
-print("\nFinal Prediction (y_hat)")
+print("Final Prediction (y_hat)")
 print(y_hat)
