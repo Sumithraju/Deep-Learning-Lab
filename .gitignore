@@ -1,0 +1,23 @@
+
+*.ckpt
+**/data/FashionMNIST/
+# Dataset archives
+# Deep learning datasets - keep locally, do not upload
+**/fashion-mnist/
+**/FashionMNIST/
+**/*.idx
+**/*.idx.gz
+# Model checkpoints
+pract'c/tiny-imagenet-200.zip
+*.pt
+*.pth
+*.pyc
+__pycache__/
+# Python
+*.tar
+*.tar.gz
+*.tgz
+**/tiny-imagenet-200/
+**/tiny-imagenet-200.zip
+tiny-imagenet-200.zip
+*.zip
