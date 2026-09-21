@@ -28,7 +28,6 @@ def conv2d(image, kernel, stride=1, padding=0):
     out_h = (H - kH) // stride + 1
     out_w = (W - kW) // stride + 1
     output = np.zeros((out_h, out_w))
-
     for i in range(out_h):
         for j in range(out_w):
             row_start = i * stride

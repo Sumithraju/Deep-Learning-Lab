@@ -18,11 +18,7 @@ from torch.utils.data import DataLoader
 import matplotlib.pyplot as plt
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
-
-
-# ========================================================================
 # PART 1 - MNIST classifier using CNN
-# ========================================================================
 class MNIST_CNN(nn.Module):
     def __init__(self, num_classes=10):
         super().__init__()
@@ -90,9 +86,7 @@ def run_mnist():
     print(f"[MNIST] Test accuracy: {correct / total:.4f}")
 
 
-# ========================================================================
 # PART 2 - CIFAR-10: train error vs. number of layers
-# ========================================================================
 class SimpleCNN(nn.Module):
     """
     A "plain" (non-residual) CNN whose depth is controlled by

@@ -21,3 +21,5 @@ __pycache__/
 **/tiny-imagenet-200.zip
 tiny-imagenet-200.zip
 *.zip
+DL_IA_1/train_20000.npz
+DL_IA_1/*.npz
