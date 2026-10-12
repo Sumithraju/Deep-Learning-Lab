@@ -138,3 +138,10 @@ with torch.no_grad():
         prob.extend(p.cpu().numpy())
 print("Accuracy:",accuracy_score(true,pred))
 print("AUROC:",roc_auc_score(true,prob))
+
+#Q2:
+# One-hot encoding — preserves exact nucleotide identity and position; best suited for CNN motif detection.
+# Integer encoding— compact, but creates a false numerical order among A, C, G, T.
+# k-mer encoding — captures local sequence context and motifs; dimensionality grows as (4^k).
+# Learned embeddings— dense, trainable representations; can capture complex relationships but are less interpretable.
+# Final finding— one-hot encoding is the most suitable for CNN-based gene accessibility prediction** because it preserves sequence position and supports motif learning.

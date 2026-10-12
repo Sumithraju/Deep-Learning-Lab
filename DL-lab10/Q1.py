@@ -1,7 +1,7 @@
 """
 Lab 10 - Deep Learning model for Target Gene Prediction
 from a set of Landmark Genes
-IMPORTANT - you must plug in the real dataset yourself:
+
     1. Read the paper linked in the lab sheet and follow it to the
        dataset it uses (GEO / LINCS L1000 gene expression data).
     2. Replace the `load_real_data()` function below with code that
