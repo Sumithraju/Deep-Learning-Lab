@@ -69,3 +69,4 @@ for epoch in range(10):
         # Update weights
         optimizer.step()
     print( f"Epoch {epoch + 1}, " f"Loss = {loss.item():.4f}")
+    
